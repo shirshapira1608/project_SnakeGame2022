@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="FinalProject.Pages.RegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProject.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="LightBlue">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <TextBlock Text="REGISTER PAGE" FontFamily="Bradley Hand ITC" FontWeight="Bold" FontSize="30" ></TextBlock>
+        </Viewbox>
+        <Viewbox Grid.Row="7" Grid.Column="4">
+            <Button CornerRadius="20" x:Name="backButton" BorderThickness="2" BorderBrush="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="back" FontSize="20" Click="BackButton_Click"></Button>
+        </Viewbox>
+        <Viewbox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="3">
+            <TextBox  x:Name="userName" Header="Username:" ></TextBox>
+        </Viewbox>
+        <Viewbox Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3">
+            <TextBox  x:Name="mail" Header="Mail:" ></TextBox>
+        </Viewbox>
+        <Viewbox Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="3">
+            <PasswordBox x:Name="password" Header="Password:" ></PasswordBox>
+        </Viewbox>
+        <Viewbox Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="3">
+            <PasswordBox x:Name="confirmPassword" Header="Confirm Password:" ></PasswordBox>
+        </Viewbox>
+        <Viewbox Grid.Row="7" Grid.Column="2">
+            <Button CornerRadius="20" x:Name="loginButton" VerticalAlignment="Stretch" BorderThickness="2" BorderBrush="White" HorizontalAlignment="Stretch" Content="Login" FontSize="20" Click="LoginButton_Click"></Button>
+        </Viewbox>
+        <Viewbox Grid.Row="7" Grid.Column="3">
+            <Button x:Name="clearButton" CornerRadius="20" BorderThickness="2" BorderBrush="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="Clear" FontSize="20" Click="ClearButton_Click"></Button>
+        </Viewbox>
+    </Grid>
+</Page>

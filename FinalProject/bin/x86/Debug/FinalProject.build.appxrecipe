@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-0A35EAR</Machine>
+    <WindowsUser>שיר</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>a8e40180-03aa-4db9-9775-f376dcfb576a</PackageIdentityName>
+    <PackageIdentityPublisher>CN=שיר</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\FinalProject.exe">
+      <PackagePath>entrypoint\FinalProject.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\.nuget\packages\microsoft.data.sqlite.core\6.0.1\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.0.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\.nuget\packages\sqlitepclraw.core\2.0.6\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.6\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.6\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\.nuget\packages\system.drawing.common\6.0.0\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\DataBaseProject\bin\x86\Debug\DataBaseProject.dll">
+      <PackagePath>DataBaseProject.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\bg\background1.jpg">
+      <PackagePath>Assets\pic\bg\background1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\bg\background2.jpg">
+      <PackagePath>Assets\pic\bg\background2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\bg\background3.jpg">
+      <PackagePath>Assets\pic\bg\background3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\bg\backgroundMenuPage.png">
+      <PackagePath>Assets\pic\bg\backgroundMenuPage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\food\apple.png">
+      <PackagePath>Assets\pic\food\apple.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\food\badApple.png">
+      <PackagePath>Assets\pic\food\badApple.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\food\badBanana.png">
+      <PackagePath>Assets\pic\food\badBanana.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\food\badCherry.png">
+      <PackagePath>Assets\pic\food\badCherry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\food\badStrawberry.png">
+      <PackagePath>Assets\pic\food\badStrawberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\food\banana.png">
+      <PackagePath>Assets\pic\food\banana.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\food\cherry.png">
+      <PackagePath>Assets\pic\food\cherry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\food\strawberry.png">
+      <PackagePath>Assets\pic\food\strawberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\blueHead\blueHeadDown.png">
+      <PackagePath>Assets\pic\head\blueHead\blueHeadDown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\blueHead\blueHeadLeft.png">
+      <PackagePath>Assets\pic\head\blueHead\blueHeadLeft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\blueHead\blueHeadRight.png">
+      <PackagePath>Assets\pic\head\blueHead\blueHeadRight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\blueHead\blueHeadUp.png">
+      <PackagePath>Assets\pic\head\blueHead\blueHeadUp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\blueHead\blueNode.png">
+      <PackagePath>Assets\pic\head\blueHead\blueNode.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\pinkHead\pinkHeadDown.png">
+      <PackagePath>Assets\pic\head\pinkHead\pinkHeadDown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\pinkHead\pinkHeadLeft.png">
+      <PackagePath>Assets\pic\head\pinkHead\pinkHeadLeft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\pinkHead\pinkHeadRight.png">
+      <PackagePath>Assets\pic\head\pinkHead\pinkHeadRight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\pinkHead\pinkHeadUp.png">
+      <PackagePath>Assets\pic\head\pinkHead\pinkHeadUp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\pinkHead\pinkNode.png">
+      <PackagePath>Assets\pic\head\pinkHead\pinkNode.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\whiteHead\whiteHeadDown.png">
+      <PackagePath>Assets\pic\head\whiteHead\whiteHeadDown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\whiteHead\whiteHeadLeft.png">
+      <PackagePath>Assets\pic\head\whiteHead\whiteHeadLeft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\whiteHead\whiteHeadRight.png">
+      <PackagePath>Assets\pic\head\whiteHead\whiteHeadRight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\whiteHead\whiteHeadUp.png">
+      <PackagePath>Assets\pic\head\whiteHead\whiteHeadUp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\whiteHead\whiteNode.png">
+      <PackagePath>Assets\pic\head\whiteHead\whiteNode.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\yellowHead\yellowHeadDown.png">
+      <PackagePath>Assets\pic\head\yellowHead\yellowHeadDown.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\yellowHead\yellowHeadLeft.png">
+      <PackagePath>Assets\pic\head\yellowHead\yellowHeadLeft.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\yellowHead\yellowHeadRight.png">
+      <PackagePath>Assets\pic\head\yellowHead\yellowHeadRight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\yellowHead\yellowHeadUp.png">
+      <PackagePath>Assets\pic\head\yellowHead\yellowHeadUp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\head\yellowHead\yellowNode.png">
+      <PackagePath>Assets\pic\head\yellowHead\yellowNode.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\logos\help.png">
+      <PackagePath>Assets\pic\logos\help.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\logos\login.png">
+      <PackagePath>Assets\pic\logos\login.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\logos\logout.png">
+      <PackagePath>Assets\pic\logos\logout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\logos\play.png">
+      <PackagePath>Assets\pic\logos\play.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\logos\records.png">
+      <PackagePath>Assets\pic\logos\records.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\logos\store.png">
+      <PackagePath>Assets\pic\logos\store.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Assets\pic\helpBackground.bmp">
+      <PackagePath>Assets\pic\helpBackground.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\FinalProject.xr.xml">
+      <PackagePath>FinalProject.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\MenuPage.xbf">
+      <PackagePath>MenuPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\ChooseMode.xbf">
+      <PackagePath>Pages\ChooseMode.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\GamePage.xbf">
+      <PackagePath>Pages\GamePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\GamePageMode2.xbf">
+      <PackagePath>Pages\GamePageMode2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\HelpPage.xbf">
+      <PackagePath>Pages\HelpPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\LoginPage.xbf">
+      <PackagePath>Pages\LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\LogoutPage.xbf">
+      <PackagePath>Pages\LogoutPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\Records.xbf">
+      <PackagePath>Pages\Records.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\RegisterPage.xbf">
+      <PackagePath>Pages\RegisterPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Pages\StorePage.xbf">
+      <PackagePath>Pages\StorePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\bin\x86\Debug\Core\FinalProject.exe">
+      <PackagePath>FinalProject.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

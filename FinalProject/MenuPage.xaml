@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="FinalProject.MenuPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="LightBlue">
+
+    <Grid x:Name="menuPage">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Viewbox Grid.Row="4" Grid.Column="4">
+            <Button CornerRadius="20" x:Name="playButton" BorderThickness="2" BorderBrush="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Click="PlayButton_Click">
+                <Image Source="ms-appx:///Assets/pic/logos/play.png"></Image>
+            </Button>
+        </Viewbox>
+        <Viewbox Grid.Row="4" Grid.Column="2" >
+            <Button CornerRadius="20" Margin="3.5, 0, 3.5, 0" x:Name="storeButton" BorderThickness="2" BorderBrush="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Click="StoreButton_Click">
+                <Image Source="ms-appx:///Assets/pic/logos/store.png"></Image>
+            </Button>
+        </Viewbox>
+        <Viewbox Grid.Row="4" Grid.Column="6" >
+            <Button CornerRadius="20" Margin="3.5, 0, 3.5, 0" x:Name="records" BorderThickness="2" BorderBrush="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Click="Records_Click">
+                <Image Source="ms-appx:///Assets/pic/logos/records.png"></Image>
+            </Button>
+        </Viewbox>
+        <Viewbox Grid.Row="6" Grid.Column="4" >
+            <Button CornerRadius="20" x:Name="helpButton" BorderThickness="2" BorderBrush="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Click="HelpButton_Click">
+                <Image Source="ms-appx:///Assets/pic/logos/help.png" ></Image>
+            </Button>
+        </Viewbox>
+        <Viewbox Grid.Row="2" Grid.Column="4" >
+            <Button CornerRadius="20" x:Name="loginButton" Margin="0, 5, 0, 5" BorderThickness="2" BorderBrush="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" FontSize="20" Click="LoginButton_Click">
+                <Image Source="ms-appx:///Assets/pic/logos/login.png"></Image>
+            </Button>
+        </Viewbox>
+        <Viewbox Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3">
+            <TextBlock Text="SNAKE" FontFamily="Bradley Hand ITC" FontWeight="Bold" FontSize="30" ></TextBlock>
+        </Viewbox>
+        <Viewbox Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2">
+            <Button CornerRadius="20" x:Name="changePasswordButton" BorderThickness="2" VerticalAlignment="Stretch" Margin="0, 5, 0, 5" HorizontalAlignment="Stretch" Content="Change Password" FontSize="20" Click="ChangePasswordButton_Click"></Button>
+        </Viewbox>
+    </Grid>
+</Page>

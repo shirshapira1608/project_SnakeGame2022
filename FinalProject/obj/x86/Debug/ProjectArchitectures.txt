@@ -1,0 +1,2 @@
+C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\DataBaseProject\DataBaseProject.csproj;x86
+C:\Users\שיר\OneDrive\Desktop\FinalProj\FinalProject\FinalProject\FinalProject.csproj;x86
